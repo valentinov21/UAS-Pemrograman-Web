@@ -10,3 +10,15 @@
           align-items: flex-start;
      }
 } */
+
+/* carousel */
+@media screen and (max-width: 812px) {
+     .d-block{
+          height: 50vh;
+     }
+}
+@media screen and (min-width: 812px) {
+     .d-block{
+          height: 75vh;
+     }
+}
