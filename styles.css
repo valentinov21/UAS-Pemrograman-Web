@@ -1,33 +1,7 @@
-/* @media screen and (min-width: 992px) {
-     .navbar .container-fluid, 
-     .navbar-expand-lg .navbar-collapse, 
-     .navbar-expand-lg .navbar-nav{
-          flex-direction: column;
-     }
-     .navbar{
-          width: 20%;
-          height: 100vh;
-          align-items: flex-start;
-     }
-} */
 /* flex bottom */
 .fb{
      position: absolute;
      bottom: 0px;
-}
-
-/* carousel */
-@media screen and (max-width: 812px) {
-     .d-block{
-          width: 100vw;
-          height: 40vh;
-     }
-}
-@media screen and (min-width: 812px) {
-     .d-block{
-          width: 100vw;
-          height: 80vh;
-     }
 }
 
 /* berita kampus */
@@ -36,14 +10,6 @@
      height: 10px;
      margin-top: -7px;
      margin-left: -15px;
-}
-.card{
-     width: 265px;
-     border: none;
-}
-.card-body{
-     height: 200px;
-     padding: 0px;
 }
 .btn-s{ /* btn selengkapnya */
      width: 175px;
