@@ -1,10 +1,44 @@
-/* berita kampus */
 .bd{
      border: 1px solid black;
 }
+/* berita kampus */
+.underline{
+     width: 5rem;
+     height: 7px;
+     border-radius: 2.5px;
+     background-color: darkgreen;
+     margin-top: -7px;
+}
+.crd-berita{
+     width: 18rem; 
+     height: 25rem;
+}
+.crd-arc{
+     width: 13rem;
+}
+
 @media screen and (max-width: 435px) {
      .ovr{
           overflow-x: scroll;
      }
-
+     /* carousel */
+     .gmbr-crsl{
+          height: 40vh;
+     }
+     /* berita kampus */
+     .crd-berita{
+          width: 14rem; 
+          height: 20rem;
+     }
+     .hdn{
+          display: none;
+     }
+     .crd-acr{
+          width: 45px;
+     }
+}
+@media screen and (max-width: 994px){
+     .fnt-tgl-crd-acr{
+          font-size: 22px;
+     }
 }
