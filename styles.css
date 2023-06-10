@@ -1,44 +1,64 @@
+/* border */
 .bd{
      border: 1px solid black;
 }
-/* berita kampus */
+/* underline */
 .underline{
      width: 5rem;
      height: 7px;
-     border-radius: 2.5px;
+     border-radius: 6px;
      background-color: darkgreen;
      margin-top: -7px;
 }
+/* berita dan acara kampus */
+/* card berita kampus */
 .crd-berita{
      width: 18rem; 
      height: 25rem;
 }
+/* card acara kampus */
 .crd-arc{
      width: 13rem;
 }
+/* tanggal acara kampus */
+.tgl-acr{
+     width: 60px;
+     height: 60px;
+     font-size: 21px;
+}
 
+/* mobile responsif */
 @media screen and (max-width: 435px) {
+     /* overflow */
      .ovr{
           overflow-x: scroll;
      }
-     /* carousel */
+     /* hidden */
+     .hdn-acr{
+          display: none;
+     }
+     /* gambar carousel */
      .gmbr-crsl{
           height: 40vh;
      }
-     /* berita kampus */
+     /* card berita kampus */
      .crd-berita{
           width: 14rem; 
           height: 20rem;
      }
-     .hdn{
+}
+
+/* responsif bagan */
+@media screen and (max-width: 995px) {
+     .hdn-bgn{
           display: none;
      }
-     .crd-acr{
-          width: 45px;
-     }
 }
-@media screen and (max-width: 994px){
-     .fnt-tgl-crd-acr{
-          font-size: 22px;
-     }
+
+/* color */
+.light-green{
+     background-color: #A8CDCD;
+}
+.green{
+     background-color: #226565;
 }
