@@ -1,16 +1,17 @@
-/* flex bottom */
-.fb{
-     position: absolute;
-     bottom: 0px;
-}
-
 /* berita kampus */
 .underline{
      width: 130px;
      height: 10px;
-     margin-top: -7px;
-     margin-left: -15px;
+/*      margin-top: -7px;
+     margin-left: -15px; */
+}
+.fb{ /* flex bottom */
+     position: absolute;
+     bottom: 0px;
 }
 .btn-s{ /* btn selengkapnya */
      width: 175px;
+}
+.bd{
+     border: 1px solid black;
 }
