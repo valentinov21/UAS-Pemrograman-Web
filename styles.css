@@ -46,10 +46,14 @@
           width: 14rem; 
           height: 20rem;
      }
+     .hdn-ftr{
+          display: none;
+     }
 }
 
 /* responsif bagan */
 @media screen and (max-width: 995px) {
+     /* hidden bagan */
      .hdn-bgn{
           display: none;
      }
