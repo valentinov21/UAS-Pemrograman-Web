@@ -6,3 +6,6 @@ Bill Valentinov                              (2115061073)
 Ghefira Salsabila Calistra                   (2155061003)
 Muchammad Raja Haikal Fiaugustian            (2155061016)
 Saphira Azzahra                              (2115061046)
+
+Link:
+https://valentinov21.github.io/
